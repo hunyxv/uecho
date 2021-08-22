@@ -27,42 +27,6 @@ func init() {
 	eci18n["400."+LANG_ZH_CN] = "请求失败"
 	eci18n["400."+LANG_ZH_TW] = "请求失败"
 	eci18n["400."+LANG_EN_US] = "Fail"
-
-	eci18n["401."+LANG_ZH_CN] = "非法的请求API协议"
-	eci18n["401."+LANG_ZH_TW] = "非法的请求API协议"
-	eci18n["401."+LANG_EN_US] = "Invalid Protocol"
-
-	eci18n["403."+LANG_ZH_CN] = "权限验证失败，请重新登录"
-	eci18n["403."+LANG_ZH_TW] = "权限验证失败，请重新登录"
-	eci18n["403."+LANG_EN_US] = "Permission Denied,Please Login! "
-
-	eci18n["404."+LANG_ZH_CN] = "流量控制"
-	eci18n["404."+LANG_ZH_TW] = "流量控制"
-	eci18n["404."+LANG_EN_US] = "Flow Controlled"
-
-	eci18n["405."+LANG_ZH_CN] = "暂不支持的服务"
-	eci18n["405."+LANG_ZH_TW] = "暂不支持的服务"
-	eci18n["405."+LANG_EN_US] = "Service Not Found"
-
-	eci18n["410."+LANG_ZH_CN] = "状态已经失效"
-	eci18n["410."+LANG_ZH_TW] = "状态已经失效"
-	eci18n["410."+LANG_EN_US] = "Session has been expired !"
-
-	eci18n["500."+LANG_ZH_CN] = "服务器内部错误,请稍后再试"
-	eci18n["500."+LANG_ZH_TW] = "服务器内部错误,请稍后再试"
-	eci18n["500."+LANG_EN_US] = "Server Internal Error !"
-
-	eci18n["501."+LANG_ZH_CN] = "参数错误"
-	eci18n["501."+LANG_ZH_TW] = "参数错误"
-	eci18n["501."+LANG_EN_US] = "Parameters are invalid  !"
-
-	eci18n["502."+LANG_ZH_CN] = "读取微信服务器数据失败，请稍后再试"
-	eci18n["502."+LANG_ZH_TW] = "参数错误"
-	eci18n["502."+LANG_EN_US] = "Fecthing informations from wechat's endpoint has been fail, Please try later!"
-
-	eci18n["10302."+LANG_ZH_CN] = "加密方式已变更!"
-	eci18n["10302."+LANG_ZH_TW] = "Encrypt Method has been changed!"
-	eci18n["10302."+LANG_EN_US] = "Encrypt Method has been changed!"
 }
 
 var errReplyPool = sync.Pool{
